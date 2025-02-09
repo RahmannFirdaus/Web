@@ -1,0 +1,27 @@
+html, body{
+    height: 100%;
+    background: rgb(206, 201, 201);
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Bio {
+    background:white;
+    border-radius: 10px;
+    height: 400px;
+    box-shadow: 5pt 5pt 5pt 5pt gray;
+}
+.judul{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foto {
+    width: 200pt;
+    height: 200pt;
+    object-fit: cover;
+    border-radius: 100pt;
+}
